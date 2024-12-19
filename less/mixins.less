@@ -1,0 +1,18 @@
+// mixins.less
+
+// Mixin para um gradiente linear
+.gradient(@startColor, @endColor) {
+  background: @startColor;
+  background: -webkit-linear-gradient(top, @startColor, @endColor);
+  background: -o-linear-gradient(top, @startColor, @endColor);
+  background: -moz-linear-gradient(top, @startColor, @endColor);
+  background: linear-gradient(to bottom, @startColor, @endColor);
+}
+
+// Mixin para centralizar um elemento
+.center-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

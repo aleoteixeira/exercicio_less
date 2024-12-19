@@ -1,0 +1,19 @@
+{
+  "name": "lele",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch-less": "less-watch-compiler less css main.less",
+    "less": "lessc less/main.less css/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "less": "^4.2.1",
+    "less-watch-compiler": "^1.16.3"
+  }
+}
+
